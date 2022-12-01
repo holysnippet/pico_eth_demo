@@ -21,10 +21,16 @@ include(CPack)
 
 pico_add_extra_outputs(${PROJECT_NAME})
 
+target_sources(${PROJECT_NAME} PRIVATE
+    main.c
+    ntptest.c
+    mqtttest.c
+)
+
 target_link_libraries(${PROJECT_NAME} PRIVATE
-    #pico_lwip
-    #pico_lwip_iperf
-    #pico_lwip_http
+    pico_lwip
+    pico_lwip_iperf
+    pico_lwip_http
     pico_stdlib
     pico_time
     pico_eth
