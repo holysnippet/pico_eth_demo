@@ -24,7 +24,6 @@ pico_add_extra_outputs(${PROJECT_NAME})
 target_sources(${PROJECT_NAME} PRIVATE
     main.c
     ntptest.c
-    mqtttest.c
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
