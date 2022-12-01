@@ -1,4 +1,7 @@
 [submodule "pico_eth"]
-    path = pico_eth
-    url = http://githib.com/holysnippet/pico_eth.git
-    branch = 0.1.1-beta
+	path = pico_eth
+	url = https://github.com/holysnippet/pico_eth
+	branch = 0.1.1-beta
+[submodule "0.1.1-beta"]
+	path = 0.1.1-beta
+	url = https://github.com/holysnippet/pico_eth
