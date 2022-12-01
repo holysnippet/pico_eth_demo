@@ -11,6 +11,8 @@ enable_testing()
 ###
 pico_sdk_init()
 
+add_subdirectory(pico_eth)
+
 add_executable(pico_eth_demo main.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
